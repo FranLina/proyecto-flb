@@ -1,12 +1,11 @@
 <?php
 
+echo "Cambio hecho por Fran";
 echo "<h1>Tabla de multiplicar</h1>";
 
 for ($i = 0; $i < 10; $i++) {
     echo "7 x " . $i . " = " . 7 * $i;
 }
-
-
 ?>
 
 <!DOCTYPE html>
