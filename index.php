@@ -1,9 +1,11 @@
 <?php
 
+echo "<h1>Cambio realizado por Ramón Garrido Maldonado</h1>";
+
 echo "<h1>Tabla de multiplicar</h1>";
 
 for ($i = 0; $i < 10; $i++) {
-    echo "5 x " . $i . " = " . 5 * $i;
+    echo "5 x " . $i . " = " . 5 * $i." ---";
 }
 
 
@@ -23,7 +25,7 @@ for ($i = 0; $i < 10; $i++) {
     <form action="index.php" method="post">
         <label>Nombre: </label>
         <input type="text" name="nombre">
-        <br />
+        <br/>
         <label>Apellido: </label>
         <input type="text" name="apellido">
         <br />
